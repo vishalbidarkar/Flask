@@ -1,0 +1,599 @@
+{
+    "a1.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:05:55",
+            "keyStrokeInfo": "#",
+            "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:05:56",
+            "keyStrokeInfo": "R",
+            "position": "1,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:05:56",
+            "keyStrokeInfo": "E",
+            "position": "1,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:05:56",
+            "keyStrokeInfo": "F",
+            "position": "1,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:05:57",
+            "keyStrokeInfo": "E",
+            "position": "1,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:05:58",
+            "keyStrokeInfo": "R",
+            "position": "1,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:05:58",
+            "keyStrokeInfo": "E",
+            "position": "1,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:05:58",
+            "keyStrokeInfo": "N",
+            "position": "1,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:05:58",
+            "keyStrokeInfo": "C",
+            "position": "1,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:05:58",
+            "keyStrokeInfo": "E",
+            "position": "1,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:06:00",
+            "keyStrokeInfo": ":",
+            "position": "1,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:06:00",
+            "keyStrokeInfo": " ",
+            "position": "1,12"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:06:01",
+            "keyStrokeInfo": "https://www.geeksforgeeks.org/python-program-to-create-bankaccount-class-with-deposit-withdraw-function/",
+            "position": "1,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:06:02",
+            "keyStrokeInfo": "\r\n",
+            "position": "1,117"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:06:03",
+            "keyStrokeInfo": "\r\n",
+            "position": "2,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 32,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:06:54",
+            "keyStrokeInfo": "\r\nclass BankAccount:\r\n    def __init__(self, name, balance=0.00):\r\n        self.name = name\r\n        self.balance = balance\r\n\r\n    def deposit(self, amount):\r\n\r\n        self.balance += amount\r\n\r\n    def withdraw(self, amount):\r\n\r\n        if amount > self.balance:\r\n            raise ValueError(\"insufficient funds\")\r\n        self.balance -= amount\r\n\r\n    def get_balance(self):\r\n\r\n        return self.balance\r\n\r\n\r\ndef main():\r\n    customer1 = BankAccount('Navya')\r\n    print(customer1.get_balance())\r\n    customer1.deposit(1000)\r\n    customer1.withdraw(485)\r\n    print(customer1.get_balance())\r\n\r\n    customer2 = BankAccount('Devi', 5000)\r\n    print(customer2.get_balance())\r\n\r\nif __name__ == \"__main__\":\r\n    main()\r\n        ",
+            "position": "3,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:01",
+            "keyStrokeInfo": "",
+            "position": "16,48"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,47"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,46"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,45"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,44"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,43"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,42"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,41"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,40"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,39"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,38"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,37"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,36"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,35"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:02",
+            "keyStrokeInfo": "",
+            "position": "16,34"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:03",
+            "keyStrokeInfo": "",
+            "position": "16,33"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:03",
+            "keyStrokeInfo": "",
+            "position": "16,32"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:03",
+            "keyStrokeInfo": "",
+            "position": "16,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:04",
+            "keyStrokeInfo": "A",
+            "position": "16,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:04",
+            "keyStrokeInfo": "c",
+            "position": "16,32"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:05",
+            "keyStrokeInfo": "c",
+            "position": "16,33"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:05",
+            "keyStrokeInfo": "o",
+            "position": "16,34"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:05",
+            "keyStrokeInfo": "u",
+            "position": "16,35"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:06",
+            "keyStrokeInfo": "n",
+            "position": "16,36"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:06",
+            "keyStrokeInfo": "t",
+            "position": "16,37"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:06",
+            "keyStrokeInfo": " ",
+            "position": "16,38"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:06",
+            "keyStrokeInfo": "i",
+            "position": "16,39"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:06",
+            "keyStrokeInfo": "s",
+            "position": "16,40"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:06",
+            "keyStrokeInfo": " ",
+            "position": "16,41"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:07",
+            "keyStrokeInfo": "E",
+            "position": "16,42"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:07",
+            "keyStrokeInfo": "m",
+            "position": "16,43"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:08",
+            "keyStrokeInfo": "p",
+            "position": "16,44"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:08",
+            "keyStrokeInfo": "t",
+            "position": "16,45"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:09",
+            "keyStrokeInfo": "y",
+            "position": "16,46"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:09",
+            "keyStrokeInfo": ",",
+            "position": "16,47"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:09",
+            "keyStrokeInfo": " ",
+            "position": "16,48"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:10",
+            "keyStrokeInfo": "N",
+            "position": "16,49"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:11",
+            "keyStrokeInfo": "o",
+            "position": "16,50"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:11",
+            "keyStrokeInfo": " ",
+            "position": "16,51"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:11",
+            "keyStrokeInfo": "m",
+            "position": "16,52"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:11",
+            "keyStrokeInfo": "o",
+            "position": "16,53"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:12",
+            "keyStrokeInfo": "n",
+            "position": "16,54"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:12",
+            "keyStrokeInfo": "e",
+            "position": "16,55"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:12",
+            "keyStrokeInfo": "y",
+            "position": "16,56"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:13",
+            "keyStrokeInfo": "!",
+            "position": "16,57"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:30",
+            "keyStrokeInfo": "V",
+            "position": "25,30"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:30",
+            "keyStrokeInfo": "i",
+            "position": "25,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:30",
+            "keyStrokeInfo": "s",
+            "position": "25,32"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:31",
+            "keyStrokeInfo": "h",
+            "position": "25,33"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:31",
+            "keyStrokeInfo": "a",
+            "position": "25,34"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:31",
+            "keyStrokeInfo": "l",
+            "position": "25,35"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:36",
+            "keyStrokeInfo": "",
+            "position": "31,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:38",
+            "keyStrokeInfo": "    customer2 = BankAccount('Devi', 5000)\r\n    print(customer2.get_balance())\r\n",
+            "position": "31,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:07:51",
+            "keyStrokeInfo": "",
+            "position": "31,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:30",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "25,38"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:31",
+            "keyStrokeInfo": "p",
+            "position": "26,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:31",
+            "keyStrokeInfo": "r",
+            "position": "26,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:31",
+            "keyStrokeInfo": "i",
+            "position": "26,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:32",
+            "keyStrokeInfo": "n",
+            "position": "26,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:32",
+            "keyStrokeInfo": "t",
+            "position": "26,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:33",
+            "keyStrokeInfo": "()",
+            "position": "26,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:34",
+            "keyStrokeInfo": "c",
+            "position": "26,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:34",
+            "keyStrokeInfo": "u",
+            "position": "26,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:34",
+            "keyStrokeInfo": "s",
+            "position": "26,13"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:36",
+            "keyStrokeInfo": "customer1",
+            "position": "26,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:37",
+            "keyStrokeInfo": ".",
+            "position": "26,20"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:38",
+            "keyStrokeInfo": "n",
+            "position": "26,21"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:38",
+            "keyStrokeInfo": "a",
+            "position": "26,22"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 05 2021 22:08:39",
+            "keyStrokeInfo": "name",
+            "position": "26,21"
+        }
+    ]
+}
